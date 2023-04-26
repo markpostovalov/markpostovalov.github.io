@@ -20,6 +20,7 @@ a {
 header, footer {
   background-color: #005f73;
   text-align: left;
+
 }
 
 header {
@@ -29,19 +30,23 @@ header {
   display: flex;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
-  margin-top: 44px;
+  /* margin-top: 44px; */
   justify-items: center;
   justify-content: center;
   align-items: stretch;
   align-content: center;
   background-color: #0a9396;
   padding-bottom: 20px;
+  margin: 44px 8px auto 8px;
 }
 
 h1 {
@@ -112,7 +117,6 @@ img {
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
-  /* background-color: #8ECAE6; */
   background-color: #e9d8a6;
   border-radius: 32px;
 }
@@ -151,7 +155,6 @@ img {
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  /* color: #4a4a4a; */
   color: #001219;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #001219;
@@ -167,6 +170,11 @@ img {
 .container {
   margin: auto;
   background-color: #0a9396;
+}
+
+footer {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
 }
 
 footer div {
