@@ -1,5 +1,5 @@
-html {
-  scroll-behavior: smooth;
+*, html {
+  scroll-behavior: smooth !important;
 }
 
 /* LINKS and PSEUDO ELEMENTS */
@@ -46,7 +46,6 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  background-color: #0a9396;
 }
 
 /* TYPOGRAPHY */
