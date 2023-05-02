@@ -118,7 +118,7 @@ img, iframe {
 }
 
 .project {
-  box-shadow: 0 0 1px 0 rgb(0, 0, 0 / 40%);
+  box-shadow: 0 0 1px 0 rgb(0, 0, 0);
   width: 100%;
   background-color: #e9d8a6;
   border-radius: 32px;
